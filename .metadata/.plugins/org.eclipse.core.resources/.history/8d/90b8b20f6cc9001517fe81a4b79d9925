@@ -1,0 +1,31 @@
+package Week1;
+
+/**
+ *Question: Write a function that tells you an individual’s Chinese Zodiac animal.
+ *
+ */
+public class Week1Easy1{
+
+    public static void main(String[]args){
+        
+        int year = 1994;
+        System.out.println(Integer.toString(year) + " is the year of the " + findZodiac(year) + ".");
+    }
+    
+    /**
+     * Input: int year
+     * Output: String zodiac
+     * Purpose: This function calculates the zodiac animal after inputting the birth year.
+     * Iterate through an array 
+     */
+    public static String findZodiac(int year){
+        
+        String[] zodiacAnimals = {"Monkey", "Rooster", "Dog", "Pig",
+                "Rat", "Ox", "Tiger", "Rabbit",
+                "Dragon", "Snake", "Horse", "Goat"};
+        
+        int indexAnimal = year%12; 
+        return zodiacAnimals[indexAnimal];
+    }
+    
+}
