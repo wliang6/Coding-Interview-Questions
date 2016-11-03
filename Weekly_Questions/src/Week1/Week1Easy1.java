@@ -8,7 +8,7 @@ package Week1;
  *      Every person is assigned to a zodiac according to their birth year. 
  *Hint: 1992: Monkey, 1993: Rooster, 1994: Dog, 1995: Pig, 1996: Rat, 1997: Ox, 
  *      1998: Tiger, 1999: Rabbit, 2000: Dragon, 2001: Snake, 2002: Horse, 2003: Goat
- *      
+ *     
  */
 
 public class Week1Easy1{
