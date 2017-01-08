@@ -1,0 +1,5 @@
+package Week5;
+
+public class Week5Hard1 {
+
+}
